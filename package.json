@@ -1,0 +1,18 @@
+{
+  "name": "vsk-telegram-bot",
+  "version": "1.0.0",
+  "description": "VSK Attendance Telegram Bot — instant attendance queries for officers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test --test-force-exit test/bot.test.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.12.0",
+    "ioredis": "^5.4.1",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
